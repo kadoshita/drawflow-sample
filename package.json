@@ -2,9 +2,9 @@
   "name": "drawflow-sample",
   "version": "0.0.1",
   "description": "drawflowのサンプルアプリ",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sublimer <sublimer.me@gmail.com> (https://sublimer.me/)",
